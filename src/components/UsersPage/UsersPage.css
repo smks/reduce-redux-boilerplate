@@ -1,0 +1,33 @@
+.users {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-auto-rows: minmax(10vh, 150px);
+  margin-bottom: 1rem;
+}
+
+.user {
+  background-color: #14233c;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 1.5rem;
+  text-align: right;
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.user:hover {
+  background-color: #1e3255;
+  transform: scale(1.05);
+}
+
+.user img {
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0.25rem auto;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  background-color: rgb(238, 238, 238);
+  margin: 24px 0 24px 0;
+}
+
+a {
+  color: white;
+}
+
+.error {
+  color: #ff9494;
+}
